@@ -2671,7 +2671,7 @@ body {
     font-weight: 700;
     line-height: 1.5;
 }
-.hero-lead::after {
+.hero-lead-accent { color: var(--pd-orange); }\n.hero-lead::after {
     content: "";
     display: block;
     width: 64px;
