@@ -106,13 +106,6 @@
                 <div class="logo">
                     <img src="images/deban-logo-new.png" alt="DEBAN" class="logo-image">
                 </div>
-                <nav class="header-nav" aria-label="主要メニュー">
-                    <a href="#problems">課題</a>
-                    <a href="#solution">機能紹介</a>
-                    <a href="#demo">デモ動画</a>
-                    <a href="#pricing">料金</a>
-                    <a href="#contact">お問い合わせ</a>
-                </nav>
                 <div class="header-actions">
                     <a href="https://deban-prod.up.railway.app/sign-in" class="btn-login" target="_blank" rel="noopener">ログイン</a>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSczludpjykgcp0YPcp9cVk4EJkx6yEBnjgI5tLNWoWsttjcqg/viewform?usp=publish-editor" class="btn-cta-header" target="_blank" rel="noopener">無料トライアル</a>
@@ -121,63 +114,64 @@
         </div>
     </header>
 
-    <!-- First View -->
+    <!-- First View: operations-first -->
     <section class="hero" id="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <p class="hero-badge">建設・専門工事会社向け 職人手配管理</p>
-                    <h1 class="hero-title">
-                        工事会社のアドバイスから生まれた、<br>
-                        <span class="highlight">現場のための手配管理アプリ。</span>
-                    </h1>
+                    <p class="hero-kicker">建設・専門工事会社向け 職人手配管理</p>
+                    <h1 class="hero-title">職人の手配を、<br><span class="highlight">もっと確実に。</span></h1>
+                    <p class="hero-lead">現場と事務所の予定をひとつに。</p>
                     <p class="hero-subtitle">
                         月額5,000円から、職人の「空き」をゼロにする。<br>
-                        ホワイトボードやExcelからの乗り換えで、<br class="sp-only">手配の機会損失をなくす。<br>
-                        <strong>従業員1〜100名の会社に最適。</strong><span class="sp-only"><br></span>スマートフォンから簡単アクセス。
+                        ホワイトボードやExcelからの乗り換えで、手配の機会損失をなくします。<br>
+                        <strong>従業員1〜100名の会社に最適。</strong> スマートフォンからも確認できます。
                     </p>
                     <div class="hero-cta">
-                        <a href="#trial" class="btn-primary btn-large">
-                            <i class="fas fa-rocket"></i> まずは無料でトライアル
-                        </a>
-                        <a href="#demo" class="btn-secondary btn-large">
-                            <i class="fas fa-play-circle"></i> デモ動画を見る
-                        </a>
+                        <a href="#trial" class="btn-primary btn-large">無料で試す</a>
+                        <a href="#demo" class="btn-secondary btn-large">1分でわかるデモを見る</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <div class="hero-product-card">
-                        <div class="hero-product-card-header">
-                            <span></span><span></span><span></span>
-                            <strong>DEBAN Dashboard</strong>
-                        </div>
-                        <img src="images/deban-app-mockup.png" alt="DEBANアプリ画面 - PCとスマホで手配管理" class="hero-illustration" loading="lazy">
+                <div class="hero-product">
+                    <img src="images/deban-app-mockup.png" alt="DEBANの職人手配画面。パソコンとスマートフォンで予定を共有" class="hero-illustration">
+                    <div class="hero-callouts" aria-label="DEBANで確認できること">
+                        <span>空き状況</span>
+                        <span>現場別の手配</span>
+                        <span>スマホ共有</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hero-wave">
-            <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="#ffffff"></path>
-            </svg>
-        </div>
     </section>
 
-    <!-- 信頼・導入メリット -->
-    <section class="trust-strip" aria-label="DEBANの特徴サマリー">
+    <!-- ホワイトボード・Excelとの比較 -->
+    <section class="operation-proof" aria-labelledby="operation-proof-title">
         <div class="container">
-            <div class="trust-grid">
-                <div class="trust-card">
-                    <span class="trust-label">PRICE</span>
-                    <strong>月額5,000円〜</strong>
-                    <p>ID数により変動。小規模な会社から導入しやすい料金体系です。</p>
+            <div class="operation-proof-heading">
+                <p>手配のムダをなくす</p>
+                <h2 id="operation-proof-title">ホワイトボード・Excelから、DEBANで一元管理へ。</h2>
+            </div>
+            <div class="operation-proof-grid">
+                <div class="operation-proof-side operation-proof-before">
+                    <h3>これまでの管理</h3>
+                    <div class="operation-proof-images">
+                        <figure>
+                            <img src="images/whiteboard-management.png" alt="ホワイトボードでの職人手配管理">
+                            <figcaption>外出先では確認できない</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/excel-gantt-new.png" alt="Excelでの職人手配管理">
+                            <figcaption>更新と共有に手間がかかる</figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div class="trust-card">
-                    <span class="trust-label">FIELD</span>
-                    <strong>現場発想</strong>
-                    <p>工事会社のアドバイスをもとに、手配管理に必要な機能へ絞り込み。</p>
+                <div class="operation-proof-side operation-proof-after">
+                    <h3>DEBANで一元管理</h3>
+                    <figure>
+                        <img src="images/project-management.png" alt="DEBANで現場と職人の予定を一元管理する画面">
+                        <figcaption>現場・職人・協力会社の予定を、どこからでも確認</figcaption>
+                    </figure>
                 </div>
-                <div class="trust-card trust-card-empty" aria-label="今後追加予定の実績枠"></div>
             </div>
         </div>
     </section>
